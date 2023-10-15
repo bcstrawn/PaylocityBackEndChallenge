@@ -65,6 +65,7 @@ public class EmployeesController : ControllerBase
         };
     }
 
+    // This can't be tested with the integration tests unless the db data is reset between runs
     // Validation could be done with something like pipes and filters, especially when there's more rules
     [SwaggerOperation(Summary = "Add employee")]
     [HttpPost("")]

@@ -25,6 +25,6 @@ to show our teams your abilities across the board.
 Requirements will be given separately.
 
 
-
-Instructions:
-dotnet dev-certs https
+# Instructions
+If needed, execute the following command before running the Api
+`dotnet dev-certs https --trust`
