@@ -27,4 +27,5 @@ Requirements will be given separately.
 
 # Instructions
 If needed, execute the following command before running the Api
+
 `dotnet dev-certs https --trust`
