@@ -1,5 +1,4 @@
 ﻿using Api.Database;
-using Api.Dtos.Dependent;
 using Api.Dtos.Employee;
 using Api.Dtos.Paycheck;
 using Api.Models;
@@ -11,6 +10,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Api.Controllers;
 
+// Long term, everything wouldn't be in the controller actions and would be in CQRS or services etc.
 [ApiController]
 [Route("api/v1/[controller]")]
 public class EmployeesController : ControllerBase
